@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The issue is that the `onBarCodeScanned` function is not consistently called when a barcode is scanned, especially when scanning multiple barcodes in quick succession. Sometimes, it may skip barcodes or only detect a subset of them.
